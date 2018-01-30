@@ -4,9 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>My game</title>
-    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='/style.css'>
 </head>
 <body>
-    <h2>Hello World!</h2>
+    <div id='application'>
+        <h2>My game</h2>
+
+        <nav id='navigation'></nav>
+
+        <section id='game' hidden>
+            <h3>Выберите режим игры</h3>
+            <button>Играть в одиночку</button>
+            <button>Играть с другом</button>
+        </section>
+
+        <section id='rules' hidden>
+            <h3>Правила</h3>
+            <p>Правила игры, которой пока нет</p>
+        </section>
+            
+        <section id='rating' hidden>
+            <h3>Рейтинг</h3>
+            <ul>user1</ul>
+        </section>
+            
+    </div>
+
+    <script src="/main.js"></script>
 </body>
 </html>
